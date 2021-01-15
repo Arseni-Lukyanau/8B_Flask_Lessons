@@ -2,5 +2,9 @@ import os
 
 # указываем корневую папку проекта
 basedir = os.path.abspath(os.path.dirname(__file__))
-# basedir = '/Users/demidraksin/PycharmProjects/8B_Flask_Lessons/app.py'
 # basedir = взять_абсолютный_путь(директория(главный_файл_сайта))
+
+
+class Config:
+    SECRET_KEY = 'try-to-guess'
+    FLASK_APP = 'app.py'
