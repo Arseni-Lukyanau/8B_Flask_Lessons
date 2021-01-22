@@ -7,6 +7,12 @@ from app import app
 
 @app.route('/')  # задать ссылку на главную страницу сайта
 def main_page():  # функция отображения страницы
-    return '<h1>Welcome to my site</h1>' # что будет отображаться
+    return render_template('index.html', title='Главная страница')  # что будет отображаться
     """когда пользователь зайдет на главную страницу,
-    он увидит текст из 10 строки"""
+    он увидит шаблон index.html"""
+
+
+@app.route('/about')
+def about_page():
+    return render_template('about.html', title='О нас')
+    # на странице about будет отображаться другой шаблон - about.html
