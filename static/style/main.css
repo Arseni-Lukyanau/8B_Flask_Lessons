@@ -1,0 +1,8 @@
+* { /* обращаюсь ко всем элементам на странице */
+    font-family: 'Comfortaa', cursive;
+    /* все шрифты на моем сайте теперь будут выглядеть как Comfortaa */
+}
+
+body {
+    background: #c8fffc;
+}
