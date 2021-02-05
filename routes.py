@@ -16,3 +16,8 @@ def main_page():  # функция отображения страницы
 def about_page():
     return render_template('about.html', title='О нас')
     # на странице about будет отображаться другой шаблон - about.html
+
+
+@app.route('/login/', methods=['GET', 'POST'])
+def login_page():
+    return render_template('login.html', message='Успешно!', title='Login page')
