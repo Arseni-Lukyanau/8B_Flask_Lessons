@@ -4,5 +4,21 @@
 }
 
 body {
-    background: #c8fffc;
+    background-image: url('https://background-tiles.com/overview/white/patterns/large/1020.png');
+}
+
+.form-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    /* внешний отступ: верх-низ 0 лево-право: автомат */
+    padding: 1.5em;
+    /* внутренний отступ: 1.5em со всех сторон */
+    border: 0.5px solid #a7a7a7;
+    /* рамка: ширина 0.5пикс, сплошная, цвет серый; */
+    border-radius: 1em;
+    background: #fff;
+}
+
+.row {
+    margin-bottom: 1em;
 }
