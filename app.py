@@ -8,3 +8,4 @@ from routes import *
 
 if __name__ == '__main__':  # инструкция запуска сайта
     app.run(debug=True)
+#
