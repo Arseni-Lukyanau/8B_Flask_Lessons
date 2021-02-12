@@ -8,3 +8,5 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 class Config:
     SECRET_KEY = 'try-to-guess'
     FLASK_APP = 'app.py'
+
+# branch_1#
